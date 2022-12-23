@@ -79,14 +79,19 @@ h1 {
 
 input {
     background: rgb(241, 241, 241);
-    color: rgb(70, 70, 70);
+    color: rgb(56, 56, 56);
     font-size: 18px;
+}
+
+input::placeholder{
+    color: rgb(172, 170, 170);
 }
 
 button {
     background: #FF6623;
     font-size: 20px;
     font-weight: 530;
+    color: whitesmoke;
 }
 
 button:hover {
